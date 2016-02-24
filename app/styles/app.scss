@@ -1,0 +1,66 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+.container{
+  margin-top: 20px;
+  border-bottom: 10px;
+}
+
+.content-header {
+  display: inline-block;
+}
+.content-header{
+  span{
+    font-size: 35px;
+    color: orange;
+
+  }
+}
+.input{
+  display: inline-block;
+}
+
+.memberlogin {
+  display: inline-block;
+}
+.icon {
+  height:10px;
+  width: 10px;
+}
+
+.cart{
+  border-color: #fff;
+  border-left: 1px solid  gray;
+  border-radius: 0%;
+
+}
+.memberlogin {
+  li {
+  list-style: none;
+  display: inline-block;
+   }
+}
+.main-nav{
+  // border-top: 1px solid;
+
+  span{
+    padding-right: 30px;
+    padding-left:  30px;
+    margin-top: 10px;
+    color: gray;
+  }
+}
