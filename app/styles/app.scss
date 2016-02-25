@@ -1,7 +1,8 @@
 
 // Bootstrap Variables
 $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
-
+// $grid-gutter-width: 20px;
+// $container-large-desktop: (980px);
 // Import Bootstrap
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
@@ -9,15 +10,18 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 *,
 *::before,
 *::after {
+  li{
+    list-style: none;
+  }
   box-sizing: border-box;
 }
+
 
 img {
   max-width: 100%;
 }
 .container{
   margin-top: 20px;
-  border-bottom: 10px;
 }
 
 .content-header {
@@ -50,17 +54,77 @@ img {
 }
 .memberlogin {
   li {
-  list-style: none;
   display: inline-block;
    }
 }
+.header-bottom{
+  margin-left: 60px;
+  margin-right: 60px;
+  text-align: center;
+}
 .main-nav{
-  // border-top: 1px solid;
-
+  border-top: 1px solid gray;
   span{
-    padding-right: 30px;
-    padding-left:  30px;
+    padding-right: 20px;
+    padding-left: 20px;
     margin-top: 10px;
     color: gray;
   }
 }
+.empty-space{
+  p{
+    display: inline-block;
+  }
+}
+.empty-space{
+  span{
+    margin-left: 170px;
+  font-weight: bold;
+  color: black;
+  }
+}
+.side-nav{
+  margin-left: 16px
+}
+.categories{
+  p{
+    text-align: left;
+  }
+  border: 1px solid gray;
+  padding-bottom: 10px;
+  width: 240px;
+  padding-top: 10px;
+}
+.thumbnail{
+  margin-left: 100px;
+  width: 224px;
+  height: 208px;
+}
+.caption{
+  height: 63px;
+  width: 224px;
+  border: 1px solid gray;
+  margin-left: -4px;
+  margin-top: 112px;
+}
+.product{
+  font-size: 13px;
+  color: #555;
+  font-weight: normal;
+}
+
+.seller{
+  display: inline-block;
+  color: #AAA;
+  padding-left: 0px
+}
+
+.price{
+  display: inline-block;
+  color: #78c042;
+  margin: 0;
+  font-size: 12px;
+
+}
+
+// the pictures section 12 rows across/focus on figuring out one of the tiles and then use it in a handlebars template
