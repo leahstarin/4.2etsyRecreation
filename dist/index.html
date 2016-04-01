@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>4 2etsyRecreation</title>
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="header-top row">
+        <div class="content-header col-md-4">
+        <a href="#"><span>Etsy</span></a>
+        <div class="form-group input">
+          <input type="email" class="form-control" id="email">
+        </div>
+          <button type="search" class="btn btn-default search">Search</button>
+    </div>
+
+
+       <div class="col-md-3"></div>
+
+         <ul class = "memberlogin col-md-5 ">
+           <li><span>Sell on Etsy</span></li>
+           <li><span>Register</span></li>
+           <li class="sign-in"><button type="button">Sign in!</button></li>
+           <li><button type="button" class="btn btn-default cart" aria-label="Left Align">
+            <span class="glyphicon glyphicon-shopping-cart icon" aria-hidden="true"></span>
+               <p>cart</p></button></li>
+        </ul>
+      </div>
+  </div>
+
+
+  <div class="header-bottom row">
+    <div class="main-nav col-md-12">
+      <span>Clothing &amp Accessories</span>
+      <span>Jewelry</span>
+      <span>Craft Supplies &amp Tools</span>
+      <span>Weddings</span>
+      <span>Entertainment</span>
+      <span>Home &amp Living</span>
+      <span>Kids &amp Baby</span>
+      <span>Vintage</span>
+    </div>
+  </div>
+
+  <div class="empty-space col-md-12">
+    <p>Show results for:</p><span><p>Top categories for "yarn"</p></span>
+ </div>
+
+
+  <div class="row">
+    <div class="side-nav col-md-3">
+      <ul class = "categories">
+        <p>All Categories</p>
+        <li><a href="#">Craft Supplies &amp Tools</a></li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">Home &amp Living</a></li>
+        <li><a href="#">Clothing</a></li>
+        <li><a href="#">Jewelry</a></li>
+        <li><a href="#">Toys &amp Games</a></li>
+        <li><a href="#">Art &amp Collectibles</a></li>
+        <li><a href="#">Bags &amp purse</a></li>
+        <li><a href="#">Bath &amp Beauty</a></li>
+        <li><a href="#">Paper &amp Party Supplies</a></li>
+        <li><a href="#">Shoes</a></li>
+        <li><a href="#">Pet Supplies</a></li>
+        <li><a href="#">Books, Movies &amp Music</a></li>
+        <li><a href="#">Weddings</a></li>
+        <li><a href="#">Electronics &amp Accessories</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md-9">
+      <div class="row">
+
+      </div>
+
+
+        <div class="thumbnail col-md-4">
+          <!-- <img src="..." alt="..."></p>
+            <div class="caption">
+              <p class ="product">3 Pack of Tillandsia Xero</p>
+              <p class ="seller"><a href="#">AirPlantShopCom</a></p>
+              <p class ="price">$34.95.USD</p>
+            </div> -->
+        </div>
+
+
+        </div>
+      </div>
+
+
+
+
+
+
+    <script id="show-template" type="text/handlebars-template">
+      <div class="col-md-6">
+        <img src="{{images}}" alt=""/>
+        // <p class="description">{{title}}</p>
+
+        <p class="currency">{{currency_code}}</p>
+        <p class="price">{{price}}</p>
+      </div>
+    </script>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
